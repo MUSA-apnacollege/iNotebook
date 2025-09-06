@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Teacher Navbar Styles */
+.teacher-navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+.teacher-navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.teacher-navbar-links li {
+  
+}
+
+.teacher-nav-link {
+  color: #555;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  color: white;
+}
+
+.teacher-nav-link:hover {
+  color: #198754; /* Changed from blue to green */
+}
+
+.teacher-navbar-search {
+  margin-left: auto;
+}
+
+.teacher-search-input {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.teacher-search-input:focus {
+  border-color: #198754; /* Changed from blue to green */
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25); /* green shadow similar to screenshot */
+}
+
+.teacher-search-button {
+  padding: 0.25rem 0.6rem;
+  background-color: transparent;
+  border: 1px solid #198754; /* Changed from blue to green */
+  color: #198754; /* Changed from blue to green */
+  border-radius: 3px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 0.3rem;
+}
+
+.teacher-search-button:hover {
+  background-color: #198754; /* Changed from blue to green */
+  color: white;
+}
+
+.teacher-navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem;
+  color: #222;
+}
+
+.teacher-nav-link.active {
+  color: white; /* Ya koi bhi highlight color */
+  font-weight: bold;
+}
+
+i{
+  cursor: pointer;
+}
