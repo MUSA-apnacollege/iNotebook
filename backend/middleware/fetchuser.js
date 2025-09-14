@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const JWT_SECRET = "Musaisagoodb$oy"; // ✅ Same secret jo tum login/signup me use kar rahe ho
+const JWT_SECRET = ""
 
 const fetchuser = (req, res, next) => {
   // Get token from header
