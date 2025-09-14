@@ -6,7 +6,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const fetchuser = require("../middleware/fetchuser");
 
-const JWT_SECRET = "Musaisagoodb$oy"; // ✅ Same secret everywhere
+const JWT_SECRET = ""
 
 // ------------------------------------------------------
 //  ROUTE 1: SIGNUP - Create a new user (POST /api/auth/createUser)
